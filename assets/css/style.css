@@ -652,7 +652,7 @@ hr {
     font-weight: 500;
   }
   .st-nav .st-nav-list > li > a.active {
-    color: #3CB35A;
+    color: #e61f49;
     position: relative;
   }
   .st-nav .st-nav-list > li > a.active:after {
@@ -663,7 +663,7 @@ hr {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background-color: #3CB35A;
+    background-color: #e61f49;
     transform: translateX(-50%);
   }
   .st-nav .sp-cvbtn {
@@ -686,7 +686,7 @@ hr {
   }
   .st-nav .sp-cvbtn .sp-cvbtn-no {
     padding-left: 15px;
-    color: #3CB35A;
+    color: #e61f49;
   }
 
   .st-munu-toggle,
@@ -711,7 +711,7 @@ hr {
     transform: translate(-50%, -50%);
     height: 2px;
     width: 10px;
-    background-color: #3CB35A;
+    background-color: #e61f49;
     transition: all 0.3s ease;
   }
   .st-munu-dropdown-toggle:before {
@@ -745,7 +745,7 @@ hr {
     font-size: 18px;
   }
   .st-nav .st-nav-list a.active {
-    color: #3CB35A;
+    color: #e61f49;
   }
   .st-nav .menu-item-has-children {
     position: relative;
@@ -985,7 +985,7 @@ hr {
   margin-top: -6px;
   margin-bottom: 10px;
   font-weight: 300;
-  color: #3CB35A;
+  color: #e61f49;
 }
 
 .st-hero.st-style2 {
@@ -1008,7 +1008,7 @@ hr {
   margin-bottom: 20px;
 }
 .st-hero.st-style2 h1 span {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-hero.st-style2 p {
   font-size: 18px;
@@ -1260,7 +1260,7 @@ canvas {
 }
 
 .st-btn.st-style1.st-color1 {
-  background-color: #3CB35A;
+  background-color: #e61f49;
   color: #FFFFFF;
 }
 
@@ -1286,12 +1286,12 @@ canvas {
 
 .st-btn.st-style2.st-color1 {
   background-color: transparent;
-  border-color: #3CB35A;
-  color: #3CB35A;
+  border-color: #e61f49;
+  color: #e61f49;
 }
 
 .st-btn.st-style2.st-color1:hover {
-  background-color: #3CB35A;
+  background-color: #e61f49;
   color: #070d1b;
 }
 
@@ -1331,7 +1331,7 @@ canvas {
 .st-section-heading.st-style1 .st-section-heading-title {
   font-size: 30px;
   text-transform: uppercase;
-  color: #3CB35A;
+  color: #e61f49;
   position: relative;
   z-index: 10;
   letter-spacing: 1px;
@@ -1349,7 +1349,7 @@ canvas {
 .st-section-heading.st-style1 .st-section-heading-title::after {
   content: "";
   position: absolute;
-  background-color: #3CB35A;
+  background-color: #e61f49;
   width: 70px;
   height: 2px;
   bottom: -16px;
@@ -1394,7 +1394,7 @@ canvas {
 .st-text-block.st-style1 .st-text-block-subtitle {
   font-size: 24px;
   font-weight: 400;
-  color: #3CB35A;
+  color: #e61f49;
   margin-bottom: 18px;
 }
 .st-text-block.st-style1 .st-text-block-text p {
@@ -1436,7 +1436,7 @@ canvas {
   background-color: #062444;
 }
 .st-iconbox.st-style1:hover .st-iconbox-icon i {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-iconbox.st-style1 .st-iconbox-icon {
   display: flex;
@@ -1496,7 +1496,7 @@ canvas {
 }
 
 .st-progressbar-percentage {
-  color: #3CB35A;
+  color: #e61f49;
   font-weight: 400;
 }
 
@@ -1508,7 +1508,7 @@ canvas {
 }
 
 .st-progressbar-in {
-  background-color: #3CB35A;
+  background-color: #e61f49;
   height: 10px;
   border-radius: 3px;
 }
@@ -1549,13 +1549,13 @@ canvas {
   transition: all 0.4s ease;
 }
 .st-resume-timeline:hover::before {
-  background-color: #3CB35A;
-  border-color: #3CB35A;
+  background-color: #e61f49;
+  border-color: #e61f49;
 }
 .st-resume-timeline .st-resume-timeline-title {
   font-size: 24px;
   font-weight: 400;
-  color: #3CB35A;
+  color: #e61f49;
   margin-top: -7px;
   margin-bottom: 8px;
 }
@@ -1644,7 +1644,7 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #3CB35A;
+  background: #e61f49;
   color: #151b29;
   font-size: 26px;
   opacity: 0.8;
@@ -1837,19 +1837,19 @@ canvas {
 24. Testimonial
 ----------------------------------------------------------------*/
 .st-testimonial.st-style1:hover .st-testimonial-name {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-testimonial.st-style1:hover .st-testimonial-text {
-  border-color: #3CB35A;
+  border-color: #e61f49;
 }
 .st-testimonial.st-style1:hover .st-testimonial-text::after {
-  border-color: #3CB35A;
+  border-color: #e61f49;
 }
 .st-testimonial.st-style1:hover .st-testimonial-img {
-  border-color: #3CB35A;
+  border-color: #e61f49;
 }
 .st-testimonial.st-style1:hover .st-testimonial-img:before {
-  background-color: #3CB35A;
+  background-color: #e61f49;
 }
 .st-testimonial.st-style1 .st-testimonial-text {
   position: relative;
@@ -1928,7 +1928,7 @@ canvas {
 }
 .st-post-single.st-style1 .st-post-date .st-post-author,
 .st-post-single.st-style1 .st-post-date .st-post-publish-date {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-post-single.st-style1 .st-post-date .st-post-author:hover {
   opacity: 0.8;
@@ -1940,7 +1940,7 @@ canvas {
   margin-bottom: 0;
 }
 .st-post-single.st-style1 .st-post-title:hover {
-  color: #3CB35A;
+  color: #e61f49;
 }
 
 /*--------------------------------------------------------------
@@ -2106,8 +2106,8 @@ canvas {
   padding: 30px 40px 27px;
   font-size: 24px;
   line-height: 1.6em;
-  border-left: 5px solid #3CB35A;
-  color: #3CB35A;
+  border-left: 5px solid #e61f49;
+  color: #e61f49;
   border-radius: 7px;
   font-weight: 400;
   margin: 20px 0;
@@ -2121,7 +2121,7 @@ canvas {
   font-size: 16px;
 }
 .st-post-details.st-style1 blockquote small span {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-post-details.st-style1 .st-post-label {
   margin-bottom: 15px;
@@ -2187,7 +2187,7 @@ canvas {
   content: ",";
 }
 .st-post-tage-list li a:hover {
-  color: #3CB35A;
+  color: #e61f49;
 }
 
 .st-post-tages,
@@ -2215,7 +2215,7 @@ canvas {
   margin-right: 12px;
 }
 .st-post-share-btn-list a:hover {
-  color: #3CB35A;
+  color: #e61f49;
 }
 
 .st-post-btn-gropu {
@@ -2342,7 +2342,7 @@ canvas {
 .comment-author .nm,
 .comment-author .nm a {
   font-weight: 500;
-  color: #3CB35A;
+  color: #e61f49;
   font-size: 18px;
   display: block;
 }
@@ -2354,7 +2354,7 @@ canvas {
 .comment-author .nm a:hover,
 .comment-author .nm:hover,
 .comment-metadata a:hover {
-  color: #3CB35A;
+  color: #e61f49;
 }
 
 .comment-metadata a {
@@ -2377,7 +2377,7 @@ canvas {
 
 .comment-reply-link {
   font-size: 14px;
-  color: #3CB35A;
+  color: #e61f49;
   position: relative;
 }
 
@@ -2524,7 +2524,7 @@ canvas {
 }
 .st-form-field input:focus,
 .st-form-field textarea:focus {
-  border-color: #3CB35A;
+  border-color: #e61f49;
   outline: 0;
 }
 
@@ -2543,7 +2543,7 @@ canvas {
   margin-bottom: 30px;
 }
 .st-single-contact-info:hover i {
-  border-color: #3CB35A;
+  border-color: #e61f49;
 }
 .st-single-contact-info i {
   display: flex;
@@ -2570,7 +2570,7 @@ canvas {
   margin-bottom: -2px;
 }
 .st-single-info-details a:hover {
-  color: #3CB35A;
+  color: #e61f49;
 }
 .st-single-info-details a:laddchild {
   margin-bottom: -6px;
