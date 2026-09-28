@@ -1,933 +1,129 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="DiscreteDev">
-    <!-- Page Title -->
-    <title>Rajabu Mrisho - Personal Portfolio</title>
-    <!-- Favicon Icon -->
-    <link rel="icon" href="assets/img/favicon.png" />
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/lightgallery.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Rajabu Mrisho is a software engineer and technical lead building useful digital products for logistics, healthcare, education and business in Tanzania.">
+  <meta name="author" content="Rajabu Mrisho">
+  <title>Rajabu Mrisho — Software Engineer & Product Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Rajabu Mrisho home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">RAJABU MRISHO<small>SOFTWARE ENGINEER</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#skills">Skills</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
 
-<body id="home">
-    <!-- Start Header Section -->
-    <header class="st-site-header st-style1 st-sticky-header st-transparent-header">
-        <div class="st-main-header">
-            <div class="container">
-                <div class="st-main-header-in">
-                    <div class="st-main-header-left">
-                        <a class="st-site-branding" href="index.html"><img src="assets/img/logo.png" alt="Disfolio"></a>
-                    </div>
-                    <div class="st-main-header-right">
-                        <div class="st-nav">
-                            <ul class="st-nav-list st-onepage-nav">
-                                <li><a href="#home" class="st-smooth-move">Home</a></li>
-                                <li><a href="#about" class="st-smooth-move">About</a></li>
-                                <li><a href="#certificates" class="st-smooth-move">Certificates</a></li>
-                                <li><a href="#resume" class="st-smooth-move">Resume</a></li>
-                                <li><a href="#projects" class="st-smooth-move">Projects</a></li>
-                                <li><a href="#contact" class="st-smooth-move">Contact</a></li>
-                            </ul>
-                            <div class="sp-cvbtn">
-                                <svg viewBox="0 0 513.64 513.64">
-                                    <g>
-                                        <g>
-                                            <path
-                                                d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
-                                        </g>
-                                    </g>
-                                </svg>
-                                <div class="sp-cvbtn-no">+255 679 190 720</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Section -->
-
-
-    <!-- Start Hero Seciton -->
-    <section class="st-hero st-style2 st-bg st-dynamic-bg" data-src='assets/img/hero-bg-2.jpg'>
-        <div class="container">
-            <div class="st-hero-text">
-                <h1>Hi, I am <span>Rajabu Mrisho</span></h1>
-                <p>
-                    I am a fullstack developer. Complex problem-solver with analytical and driven mindset. <br>
-                    Dedicated to achieving demanding development objectives
-                    according to tight schedules while producing impeccable code.
-                </p>
-                <div class="st-hero-social-links">
-                    <!-- <a href="#" class="st-social-btn" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f"></i>
-                    </a> -->
-                    <a href="https://api.whatsapp.com/send?phone=255679190720" class="st-social-btn" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="https://www.hackerrank.com/certificates/0f00dda21327" class="st-social-btn" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="fab fa-hackerrank"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/rajabu-mrisho-a02606193/" class="st-social-btn" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Raj067" class="st-social-btn" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <svg class="st-hero-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill-opacity="1" d="M0,192L720,256L1440,192L1440,320L720,320L0,320Z"></path>
-        </svg>
-    </section>
-    <!-- End Hero Seciton -->
-
-
-    <!-- Start About Seciton -->
-    <section id="about" class="st-about-wrap">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">ABOUT ME</h4>
-                <h2 class="st-section-heading-subtitle">ABOUT ME</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 wow fadeInLeft">
-                    <div class="st-about-img-wrap">
-                        <div class="st-about-img st-dynamic-bg st-bg" data-src="assets/img/section/image.png"></div>
-                    </div>
-                    <div class="st-height-b0 st-height-lg-b30"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="st-vertical-mist-le">
-                        <div class="st-vertical-mist-le-in">
-                            <div class="st-text-block st-style1">
-                                <h2 class="st-text-block-title">This is Rajabu Mrisho</h2>
-                                <h4 class="st-text-block-subtitle">Fullstack Developer</h4>
-                                <div class="st-text-block-text">
-                                    <p>
-                                        Well-qualified Full Stack Developer familiar with wide range of programming
-                                        utilities and languages. Knowledgeable of
-                                        backend and frontend development requirements. Handles any part of process with
-                                        ease. Collaborative team player with
-                                        excellent technical abilities.
-                                    </p>
-                                </div>
-                                <ul class="st-text-block-details st-mp0">
-                                    <!-- <li><span>Birthday</span> : <span>20 June 1992</span></li> -->
-                                    <li><span>Phone</span> : <span>+255679190720</span></li>
-                                    <li><span>Email</span> : <span>rajabumrisho69@gmail.com</span></li>
-                                    <li><span>From</span> : <span>Dar es salaam, Tanzania</span></li>
-                                    <li><span>Language</span> : <span>English, Swahili</span></li>
-                                    <li><span>Freelance</span> : <span>Available</span></li>
-                                </ul>
-                                <div class="st-text-block-btn">
-                                    <a href="tel:+255679190720" class="st-btn st-style1 st-color1" download>Let's have a
-                                        talk</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About Seciton -->
-
-
-    <!-- Start Service Seciton -->
-    <section>
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">SERVICES</h4>
-                <h2 class="st-section-heading-subtitle">SERVICES</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-
-        <!-- Iconbox Container -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/01.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">Software Development</h2>
-                        <div class="st-iconbox-text">Design, program, build, deploy and maintain software using many
-                            different skills and tools.</div>
-                    </div>
-                    <div class="st-height-b30 st-height-lg-b30"></div>
-                </div><!-- .col -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/02.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">UI/UX Design</h2>
-                        <div class="st-iconbox-text">Design aesthetic elements by which users interact with a product,
-                            such as buttons, icons, menu bars, and more</div>
-                    </div>
-                    <div class="st-height-b30 st-height-lg-b30"></div>
-                </div><!-- .col -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/03.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">Product Design</h2>
-                        <div class="st-iconbox-text">Makes a practical and functional product as artistic and attractive
-                            to a consumer as possible.</div>
-                    </div>
-                    <div class="st-height-b30 st-height-lg-b30"></div>
-                </div><!-- .col -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/04.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">IT support</h2>
-                        <div class="st-iconbox-text">Maintains the computer networks of all types of organisations,
-                            providing technical support and ensuring the whole
-                            company runs smoothly</div>
-                    </div>
-                    <div class="st-height-b0 st-height-lg-b30"></div>
-                </div><!-- .col -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/05.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">Mobile App Design</h2>
-                        <div class="st-iconbox-text">Responsible for the overall style of a mobile application, covering
-                            both the User Interface as well as User Experience design.</div>
-                    </div>
-                    <div class="st-height-b0 st-height-lg-b30"></div>
-                </div><!-- .col -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="st-iconbox st-style1">
-                        <div class="st-iconbox-icon">
-                            <img src="assets/img/service/icon/06.png" alt="icon">
-                        </div>
-                        <h2 class="st-iconbox-title">Web Design</h2>
-                        <div class="st-iconbox-text">Plan, create and code internet sites and web pages, many of which
-                            combine text with sounds, pictures, graphics and video
-                            clips.</div>
-                    </div>
-                    <div class="st-height-b0 st-height-lg-b30"></div>
-                </div><!-- .col -->
-            </div>
-        </div>
-        <div class="st-height-b100 st-height-lg-b80"></div>
-    </section>
-    <!-- End Service Seciton -->
-
-
-    <!-- Start Skill Seciton -->
-    <section class="st-dark-bg">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">MY SKILLS</h4>
-                <h2 class="st-section-heading-subtitle">SKILLS</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="st-skill-wrap">
-                        <div class="st-skill-heading">
-                            <h2 class="st-skill-title">Technical skills that I have</h2>
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Python</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Django</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">HTML</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">CSS</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">JavaScript</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Django Rest
-                                        Framework</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">React</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Flutter</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">NGINX</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Bootstrap</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Web API</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Node.js</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">php</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">OpenCV</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Machine Learning
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">VPS</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">github</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">keras</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">SQL</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Tensorflow</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">WordPress</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Ubuntu</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Sass</div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="border p-2 rounded ms-1 me-1 mt-2 mb-1 text-truncate">Dart Language
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="st-text-block-btn mt-4">
-                                <a href="#contact" class="st-btn st-style1 st-color1">Hire Me</a>
-                            </div> -->
-                        </div><!-- .st-skill-heading -->
-                    </div>
-                </div>
-
-                <!-- Progressbar -->
-
-                <div class="col-lg-6">
-                    <div class="st-height-b0 st-height-lg-b30"></div>
-                    <div class="st-progressbar-wrap">
-                        <div class="st-single-progressbar">
-                            <div class="st-progressbar-heading">
-                                <h3 class="st-progressbar-title">Data Analysis</h3>
-                                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s"
-                                    data-wow-delay="0.5s">95%
-                                </div>
-                            </div>
-                            <div class="st-progressbar" data-progress="95">
-                                <div class="st-progressbar-in wow fadeInLeft"></div>
-                            </div>
-                        </div><!-- .st-single-progressbar -->
-
-                        <div class="st-height-b30 st-height-lg-b20"></div>
-                        <div class="st-single-progressbar">
-                            <div class="st-progressbar-heading">
-                                <h3 class="st-progressbar-title">Problem Solving Skills</h3>
-                                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s"
-                                    data-wow-delay="0.5s">80%
-                                </div>
-                            </div>
-                            <div class="st-progressbar" data-progress="80">
-                                <div class="st-progressbar-in wow fadeInLeft"></div>
-                            </div>
-                        </div><!-- .st-single-progressbar -->
-
-                        <div class="st-height-b30 st-height-lg-b20"></div>
-                        <div class="st-single-progressbar">
-                            <div class="st-progressbar-heading">
-                                <h3 class="st-progressbar-title">AI and Machine Learning</h3>
-                                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s"
-                                    data-wow-delay="0.5s">70%
-                                </div>
-                            </div>
-                            <div class="st-progressbar" data-progress="70">
-                                <div class="st-progressbar-in wow fadeInLeft"></div>
-                            </div>
-                        </div><!-- .st-single-progressbar -->
-
-                        <div class="st-height-b30 st-height-lg-b20"></div>
-                        <div class="st-single-progressbar">
-                            <div class="st-progressbar-heading">
-                                <h3 class="st-progressbar-title">UX Design</h3>
-                                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s"
-                                    data-wow-delay="0.5s">85%
-                                </div>
-                            </div>
-                            <div class="st-progressbar" data-progress="85">
-                                <div class="st-progressbar-in wow fadeInLeft"></div>
-                            </div>
-                        </div><!-- .st-single-progressbar -->
-                        <div class="st-height-b30 st-height-lg-b20"></div>
-                        <div class="st-single-progressbar">
-                            <div class="st-progressbar-heading">
-                                <h3 class="st-progressbar-title">Software Design</h3>
-                                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s"
-                                    data-wow-delay="0.5s">90%
-                                </div>
-                            </div>
-                            <div class="st-progressbar" data-progress="90">
-                                <div class="st-progressbar-in wow fadeInLeft"></div>
-                            </div>
-                        </div><!-- .st-single-progressbar -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="st-height-b100 st-height-lg-b80"></div>
-    </section>
-    <!-- End Skill Seciton -->
-
-    <section id="certificates">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">CERTIFICATIONS</h4>
-                <h2 class="st-section-heading-subtitle">ONLINE CERTIFICATIONS</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-
-        <!-- Latest News Container -->
-
-        <div class="container">
-            <div class="blog-wrapper">
-                <div class="row g-4">
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer"
-                                href="https://www.hackerrank.com/certificates/iframe/5d239ad4080d">
-                                <img src="assets/img/certificate/js.png" class="st-zoom-in" alt="blog1">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="https://www.hackerrank.com/certificates/iframe/5d239ad4080d"
-                                        target="_blank" rel="noopener noreferrer" class="st-post-author">Verify
-                                        Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a
-                                        href="https://www.hackerrank.com/certificates/iframe/5d239ad4080d"
-                                        target="_blank" rel="noopener noreferrer">JavaScript</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3"
-                                href="https://www.hackerrank.com/certificates/iframe/0f00dda21327" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="assets/img/certificate/problem.png" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="https://www.hackerrank.com/certificates/iframe/0f00dda21327"
-                                        target="_blank" rel="noopener noreferrer" class="st-post-author">Verify
-                                        Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a
-                                        href="https://www.hackerrank.com/certificates/iframe/0f00dda21327"
-                                        target="_blank" rel="noopener noreferrer">Problem
-                                        Solving</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer"
-                                href="https://www.hackerrank.com/certificates/iframe/20451cff49f0">
-                                <img src="assets/img/certificate/python.png" class="st-zoom-in" alt="blog3">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="https://www.hackerrank.com/certificates/iframe/20451cff49f0"
-                                        target="_blank" rel="noopener noreferrer" class="st-post-author">Verify
-                                        Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.hackerrank.com/certificates/iframe/20451cff49f0">Python
-                                        Programming</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer"
-                                href="https://www.hackerrank.com/certificates/iframe/a66337071430">
-                                <img src="assets/img/certificate/react.png" class="st-zoom-in" alt="blog1">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.hackerrank.com/certificates/iframe/a66337071430"
-                                        class="st-post-author">Verify Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.hackerrank.com/certificates/iframe/a66337071430">React js</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer"
-                                href="https://www.hackerrank.com/certificates/iframe/a4659bfaea94">
-                                <img src="assets/img/certificate/js2.png" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="https://www.hackerrank.com/certificates/iframe/a4659bfaea94"
-                                        class="st-post-author">Verify Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.hackerrank.com/certificates/iframe/a4659bfaea94">Javascript
-                                        (Intermediate)</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/certificate/kaggle.png" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="#" class="st-post-author" target="_blank" rel="noopener noreferrer">Verify
-                                        Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a href="#" target="_blank" rel="noopener noreferrer">Deep
-                                        Learning</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3" target="_blank" rel="noopener noreferrer"
-                                href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/scientific-computing-with-python-v7">
-                                <img src="assets/img/certificate/f1.png" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/scientific-computing-with-python-v7"
-                                        class="st-post-author">Verify Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a target="_blank" rel="noopener noreferrer"
-                                        href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/scientific-computing-with-python-v7">Scientific
-                                        Computing With Python</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3"
-                                href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/javascript-algorithms-and-data-structures"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/certificate/js3.png" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-                                <div class="st-post-date">
-                                    <a href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/javascript-algorithms-and-data-structures"
-                                        class="st-post-author" target="_blank" rel="noopener noreferrer">Verify
-                                        Certificate</a>
-                                </div>
-                                <h4 class="st-post-title"><a
-                                        href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/javascript-algorithms-and-data-structures"
-                                        target="_blank" rel="noopener noreferrer">JavaScript Algorithms and Data
-                                        Structures</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="st-height-b95 st-height-lg-b75"></div>
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-gridline" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER <span class="eyebrow-divider">/</span> DAR ES SALAAM, TZ</p>
+        <h1>I build software<br>for the <span class="accent-text">real world.</span></h1>
+        <p class="hero-lede">I’m Rajabu — an entrepreneurial-minded software engineer who spots practical problems, shapes useful products and builds them into dependable digital tools.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↘</span></a><a class="text-link" href="mailto:rajabumrisho69@gmail.com">Get in touch <span>↗</span></a></div>
+        <div class="hero-socials" aria-label="Social profiles"><a href="https://www.linkedin.com/in/rajabu-mrisho-a02606193/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/Raj067" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://api.whatsapp.com/send?phone=255679190720" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div>
+      </div>
+      <div class="hero-visual" aria-label="Portrait of Rajabu Mrisho">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="portrait-frame"><img src="assets/img/section/image.png" alt="Rajabu Mrisho" fetchpriority="high"></div>
+        <div class="visual-index">01 <span>—</span> BUILDER</div>
+        <div class="floating-note"><span class="note-icon">✳</span><span>Ideas into<br><b>working products.</b></span></div>
+        <span class="crosshair crosshair-a" aria-hidden="true">+</span><span class="crosshair crosshair-b" aria-hidden="true">+</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      <span class="hero-coordinate" aria-hidden="true">06°48' S &nbsp; 39°17' E</span>
     </section>
 
-    <!-- Start Resume Seciton -->
-    <section id="resume" class="st-dark-bg">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">RESUME</h4>
-                <h2 class="st-section-heading-subtitle">RESUME</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-        <div class="container">
-            <div class="row g-5">
-                <!-- Experience -->
-                <div class="col-lg-6">
-                    <div class="st-resume-wrap">
-                        <div class="st-resume-heading">
-                            <img src="assets/img/icon/resume-icon1.png" alt="resume-icon">
-                            <h2 class="st-resume-heading-title">Experience</h2>
-                        </div>
-
-                        <div class="st-height-b50 st-height-lg-b30"></div>
-
-                        <div class="st-resume-timeline-wrap">
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Software Engineer</h3>
-                                <!-- <div class="st-resume-timeline-duration">Jan 2022 - Present</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Minfoxy</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Senior Developer</h3>
-                                <!-- <div class="st-resume-timeline-duration">Jan 2022 - Present</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Patowave</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Python Developer</h3>
-                                <!-- <div class="st-resume-timeline-duration">Jan 2016 - December 2019</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Alphatech Technology</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Python Developer</h3>
-                                <!-- <div class="st-resume-timeline-duration">Jan 2014 - December 2015</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Freelance Experience</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Web Developer</h3>
-                                <!-- <div class="st-resume-timeline-duration">Jan 2014 - December 2015</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Freelance Experience</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education -->
-                <div class="col-lg-6">
-
-                    <div class="st-height-b0 st-height-lg-b50"></div>
-                    <div class="st-resume-wrap">
-                        <div class="st-resume-heading">
-                            <img src="assets/img/icon/resume-icon2.png" alt="resume-icon">
-                            <h2 class="st-resume-heading-title">Education</h2>
-                        </div>
-                        <div class="st-height-b50 st-height-lg-b30"></div>
-                        <div class="st-resume-timeline-wrap">
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Programming</h3>
-                                <!-- <div class="st-resume-timeline-duration">2015 - 2016</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Freecodecamp & Coursera</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Problem Solving</h3>
-                                <!-- <div class="st-resume-timeline-duration">2010 - 2014</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Hackerrank & freecodecamp & CS50</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">ICT</h3>
-                                <!-- <div class="st-resume-timeline-duration">2010 - 2014</div> -->
-                                <h4 class="st-resume-timeline-subtitle">CBE</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">High School</h3>
-                                <!-- <div class="st-resume-timeline-duration">2006 - 2010</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Tabora Boys</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                            <div class="st-height-b50 st-height-lg-b30"></div>
-                            <div class="st-resume-timeline">
-                                <h3 class="st-resume-timeline-title">Secondary School</h3>
-                                <!-- <div class="st-resume-timeline-duration">2006 - 2010</div> -->
-                                <h4 class="st-resume-timeline-subtitle">Mihayo</h4>
-                                <!-- <div class="st-resume-timeline-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                        ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
-                                </div> -->
-                            </div> <!-- st-resume-timeline -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="st-height-b100 st-height-lg-b80"></div>
+    <section class="intro section-shell" id="about">
+      <div class="section-kicker"><span>01</span><span>ABOUT</span></div>
+      <div class="intro-main"><p class="eyebrow">ENGINEERING WITH PURPOSE</p><h2>Good software should make<br><span class="muted-text">work feel lighter.</span></h2></div>
+      <div class="intro-aside"><p>I bring an entrepreneurial mindset to software: find a real user or business problem, turn it into a clear product idea, then carry it through design, development and delivery.</p><p>My work spans logistics, healthcare, education, commerce and operations. I enjoy joining product thinking with hands-on engineering and the DevOps work needed to run reliable software in the real world.</p><a class="text-link" href="#experience">A little about my journey <span>↓</span></a></div>
     </section>
-    <!-- End Resume Seciton -->
 
-
-    <!-- Start projects Seciton -->
-    <section id="projects">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">PROJECTS</h4>
-                <h2 class="st-section-heading-subtitle">LATEST PROJECTS</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-
-        <!-- Latest News Container -->
-
-        <div class="container">
-            <div class="blog-wrapper">
-                <div class="row g-4">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/hospital.jpg" class="st-zoom-in" alt="blog1">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Hospital Management System</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/timber.jpg" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Timber based Ecommerce system</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/applicant.jpg" class="st-zoom-in" alt="blog3">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Applicant Tracking System</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/blog1.jpg" class="st-zoom-in" alt="blog1">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Accounting System</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/inventory.jpg" class="st-zoom-in" alt="blog2">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Inventory Management System</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="st-post-single st-style1 mb-3">
-                            <a class="st-post-thumb st-zoom mb-3">
-                                <img src="assets/img/blog/blog3.jpg" class="st-zoom-in" alt="blog3">
-                            </a>
-                            <div class="st-post-info">
-
-                                <h4 class="st-post-title"><a>Mpingo Conservation Organization
-                                        Website</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="st-height-b95 st-height-lg-b75"></div>
+    <section class="experience section-shell" id="experience">
+      <div class="section-heading"><div class="section-kicker"><span>02</span><span>EXPERIENCE</span></div><div><p class="eyebrow">THE PEOPLE & PRODUCTS</p><h2>Where I’ve<br><span class="muted-text">made an impact.</span></h2></div><p class="heading-note">Building products with teams across technology, health and education.</p></div>
+      <div class="experience-list">
+        <article class="experience-row"><span class="experience-count">01</span><div class="experience-role"><h3>Software Development</h3><p>Dudumizi Technologies</p></div><div class="experience-detail"><p>Contributing to software products and digital solutions with the Dudumizi Technologies team.</p></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+        <article class="experience-row featured-row"><span class="experience-count">02</span><div class="experience-role"><h3>Lead Developer · TanzMED</h3><p>Africa Health Technologies</p></div><div class="experience-detail"><p>Led development of TanzMED, bringing technical direction and hands-on engineering to a healthcare technology product.</p><span class="work-tag">HEALTH TECHNOLOGY</span></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+        <article class="experience-row"><span class="experience-count">03</span><div class="experience-role"><h3>Software Development</h3><p>Rahntech</p></div><div class="experience-detail"><p>Developed SStepApp, a school management system supporting digital workflows for education.</p><span class="work-tag">EDTECH · SSTEPAPP</span></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+        <article class="experience-row"><span class="experience-count">04</span><div class="experience-role"><h3>Software Engineer</h3><p>Minfoxy</p></div><div class="experience-detail"><p>Software engineering across business platforms, web applications and operational systems.</p></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+        <article class="experience-row"><span class="experience-count">05</span><div class="experience-role"><h3>Senior Developer</h3><p>Patowave</p></div><div class="experience-detail"><p>Product and application development, from implementation through delivery.</p></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+        <article class="experience-row"><span class="experience-count">06</span><div class="experience-role"><h3>Python Developer</h3><p>Alphatech Technology</p></div><div class="experience-detail"><p>Python development and software engineering.</p></div><span class="row-arrow" aria-hidden="true">↗</span></article>
+      </div>
     </section>
-    <!-- End Blog Seciton -->
 
-
-    <!-- Start Contact Seciton -->
-    <section id="contact" class="st-dark-bg">
-        <div class="st-height-b100 st-height-lg-b80"></div>
-        <div class="container">
-            <div class="st-section-heading st-style1">
-                <h4 class="st-section-heading-title">CONTACT ME</h4>
-                <h2 class="st-section-heading-subtitle">CONTACT</h2>
-            </div>
-            <div class="st-height-b25 st-height-lg-b25"></div>
-        </div>
-
-        <!-- Contact Container -->
-
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="st-height-b0 st-height-lg-b40"></div>
-                    <h3 class="st-contact-title">Contact Info</h3>
-                    <div class="st-contact-text">
-                        I would like to have a talk with you.
-                    </div>
-                    <div class="st-contact-info-wrap">
-                        <div class="st-single-contact-info">
-                            <i class="fas fa-envelope"></i>
-                            <div class="st-single-info-details">
-                                <h4>Email</h4>
-                                <a href="mailto:rajabumrisho69@gmail.com">rajabumrisho69@gmail.com</a>
-                                <a href="mailto:rajabu@minfoxy.com">rajabu@minfoxy.com</a>
-                            </div>
-                        </div>
-                        <div class="st-single-contact-info">
-                            <i class="fas fa-phone-alt"></i>
-                            <div class="st-single-info-details">
-                                <h4>Phone</h4>
-                                <span>+255679190720</span>
-                                <span>+255625789316</span>
-                            </div>
-                        </div>
-                        <div class="st-single-contact-info">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="st-single-info-details">
-                                <h4>Address</h4>
-                                <span>Posta ya zamani <br>Dar es salaam, Tanzania</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="st-contact-title">Let's have a talk</h3>
-                    <div id="st-alert"></div>
-                    <form method="POST" class="st-contact-form">
-                        <div class="st-form-field">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="st-form-field">
-                            <input type="text" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="st-form-field">
-                            <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message"
-                                required></textarea>
-                        </div>
-                        <button class="st-btn st-style1 st-color1" type="submit" id="submit" name="submit">Send
-                            message</button>
-                    </form>
-                    <p class="form-message mt-4"></p>
-                </div>
-                <div class="st-height-b0 st-height-lg-b30"></div>
-
-
-            </div>
-        </div>
-        <div class="st-height-b100 st-height-lg-b80"></div>
+    <section class="work section-shell" id="work">
+      <div class="section-heading work-heading"><div class="section-kicker"><span>03</span><span>SELECTED WORK</span></div><div><p class="eyebrow">A RANGE OF REAL-WORLD SYSTEMS</p><h2>Different problems.<br><span class="muted-text">Thoughtful solutions.</span></h2></div><p class="heading-note">Select a project to see what it does, who it was for, the tools behind it and the result.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured" data-project="pamoja">
+          <button class="project-image image-route" type="button" data-project-open="pamoja" aria-label="View PamojaRoute case study"><img src="https://images.unsplash.com/photo-1786081061738-ed1e6abd3ac5?auto=format&amp;fit=crop&amp;w=1600&amp;q=82" alt="Freight truck traveling on a highway; contextual Unsplash photo" loading="lazy"><span class="image-label">01 / LOGISTICS</span><span class="project-open">↗</span><div class="route-graphic" aria-hidden="true"><span class="route-point point-a"></span><span class="route-point point-b"></span><span class="route-path"></span><span class="route-label label-a">DAR ES SALAAM</span><span class="route-label label-b">ON THE MOVE</span></div><span class="image-credit">Photo · Nishat Samadzai / Unsplash</span></button>
+          <div class="project-copy"><div class="project-meta"><span>TRANSPORT · FLEET · OPERATIONS</span><span>01</span></div><h3><button class="project-title" type="button" data-project-open="pamoja">PamojaRoute <span>↗</span></button></h3><p>Logistics and fleet software connecting transport orders, vehicles, drivers, fuel, maintenance and commercial records.</p><div class="tag-list"><span>Logistics</span><span>Fleet systems</span><span>Operations</span></div><button class="project-link" type="button" data-project-open="pamoja">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="iaat">
+          <button class="project-image image-health" type="button" data-project-open="iaat" aria-label="View IAAT Online Registration case study"><img src="https://images.unsplash.com/photo-1781038507123-cbebc8ec508c?auto=format&amp;fit=crop&amp;w=1400&amp;q=82" alt="People completing registration paperwork; contextual Unsplash photo" loading="lazy"><span class="image-label">02 / MEMBERSHIP</span><span class="project-open">↗</span><div class="visual-stamp">IAAT<span>ONLINE REGISTRATION</span></div><span class="image-credit">Photo · Chidera Faustina Okeke / Unsplash</span></button>
+          <div class="project-copy"><div class="project-meta"><span>INSURANCE · REGISTRATION</span><span>02</span></div><h3><button class="project-title" type="button" data-project-open="iaat">IAAT Online Registration <span>↗</span></button></h3><p>Online registration and agency registry for the Insurance Agents Association of Tanzania.</p><div class="tag-list"><span>Web platform</span><span>Registration</span></div><button class="project-link" type="button" data-project-open="iaat">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="west">
+          <button class="project-image image-patrol" type="button" data-project-open="west" aria-label="View West Security case study"><img src="https://westsecurity.co.tz/assets/fleet-vehicles-DTHq9ZJl.jpg" alt="West Security patrol vehicles from the company website" loading="lazy"><span class="image-label">03 / FIELD OPERATIONS</span><span class="project-open">↗</span><div class="radar" aria-hidden="true"><span></span><i></i></div><span class="image-credit">Photo · West Security</span></button>
+          <div class="project-copy"><div class="project-meta"><span>SECURITY · FIELD OPERATIONS</span><span>03</span></div><h3><button class="project-title" type="button" data-project-open="west">West Security Operations <span>↗</span></button></h3><p>Security operations platform for procurement, assets, transport and employee requisitions, with patrol tracking in the tender scope.</p><div class="tag-list"><span>Security</span><span>Field operations</span></div><button class="project-link" type="button" data-project-open="west">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="tanzmed">
+          <button class="project-image image-tanzmed" type="button" data-project-open="tanzmed" aria-label="View TanzMED case study"><img src="https://cdn.aptoide.com/imgs/2/8/e/28ed98b8ce1368cd7fcdf22ba3819aa8_fgraphic.png" alt="TanzMED app artwork from a public app listing" loading="lazy"><span class="image-label">04 / HEALTH TECHNOLOGY</span><span class="project-open">↗</span><div class="med-mark">T<span>+</span></div><span class="visual-caption">PUBLIC APP ARTWORK</span><span class="image-credit">Image · TanzMED public app listing</span></button>
+          <div class="project-copy"><div class="project-meta"><span>HEALTHCARE · MOBILE</span><span>04</span></div><h3><button class="project-title" type="button" data-project-open="tanzmed">TanzMED <span>↗</span></button></h3><p>Africa Health Technologies’ digital health app, where I served as Lead Developer.</p><div class="tag-list"><span>HealthTech</span><span>Lead developer</span></div><button class="project-link" type="button" data-project-open="tanzmed">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="sstepapp">
+          <button class="project-image image-school" type="button" data-project-open="sstepapp" aria-label="View SStepApp case study"><img src="https://sstepapp.co.tz/images/dashboard/dashboard1.png" alt="SStepApp school management dashboard from the official website" loading="lazy"><span class="image-label">05 / EDUCATION</span><span class="project-open">↗</span><div class="school-card"><span>SS</span><i>LEARN · MANAGE · GROW</i></div><span class="image-credit">Screenshot · SStepApp official website</span></button>
+          <div class="project-copy"><div class="project-meta"><span>EDTECH · SCHOOL SYSTEM</span><span>05</span></div><h3><button class="project-title" type="button" data-project-open="sstepapp">SStepApp <span>↗</span></button></h3><p>School management platform connecting school administrators, teachers, parents and students across everyday learning and administration.</p><div class="tag-list"><span>Education</span><span>School management</span></div><button class="project-link" type="button" data-project-open="sstepapp">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="dukani">
+          <button class="project-image image-shop" type="button" data-project-open="dukani" aria-label="View Dukani case study"><img src="https://play-lh.googleusercontent.com/_lFZxB7IRnGcCOd4lTsoTtCANhVhOrVas5OpWiU4nXF15b9Eo9DHQDC44JBBvB3-sSQZExUFGBZn_aaeibop%3Dw526-h296" alt="Dukani app screenshot from Google Play" loading="lazy"><span class="image-label">06 / COMMERCE</span><span class="project-open">↗</span><div class="shop-ui"><span>DUKA<span class="accent-text">.</span></span><i>STOCK · SALES · REPORTS</i><b>Works offline <strong>→</strong></b></div><span class="image-credit">Image · Dukani on Google Play</span></button>
+          <div class="project-copy"><div class="project-meta"><span>RETAIL · MOBILE · OFFLINE-FIRST</span><span>06</span></div><h3><button class="project-title" type="button" data-project-open="dukani">DukaApp / Dukani <span>↗</span></button></h3><p>Mobile-first business management for Tanzanian shops: stock, sales, purchases, expenses and customer balances.</p><div class="tag-list"><span>Retail</span><span>Inventory</span><span>Mobile</span></div><button class="project-link" type="button" data-project-open="dukani">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="hospital">
+          <button class="project-image image-hospital" type="button" data-project-open="hospital" aria-label="View Hospital Management System case study"><img src="https://images.unsplash.com/photo-1666214277730-e9c7e755e5a3?auto=format&amp;fit=crop&amp;w=1400&amp;q=82" alt="Doctor speaking with a patient; contextual Unsplash photo" loading="lazy"><span class="image-label">07 / HEALTHCARE</span><span class="project-open">↗</span><div class="hospital-cross">+</div><span class="visual-caption">CARE OPERATIONS</span><span class="image-credit">Photo · Accuray / Unsplash</span></button>
+          <div class="project-copy"><div class="project-meta"><span>HEALTHCARE · OPERATIONS</span><span>07</span></div><h3><button class="project-title" type="button" data-project-open="hospital">Hospital Management System <span>↗</span></button></h3><p>Hospital management product from my earlier portfolio, focused on organizing healthcare operations.</p><div class="tag-list"><span>Healthcare</span><span>Management system</span></div><button class="project-link" type="button" data-project-open="hospital">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="ats">
+          <button class="project-image image-applicant" type="button" data-project-open="ats" aria-label="View Applicant Tracking System case study"><img src="https://images.unsplash.com/photo-1758518730380-04c8e0d57b68?auto=format&amp;fit=crop&amp;w=1400&amp;q=82" alt="Hiring manager interviewing a candidate; contextual Unsplash photo" loading="lazy"><span class="image-label">08 / PEOPLE & TEAMS</span><span class="project-open">↗</span><div class="pipeline"><span>APPLIED</span><b></b><span>REVIEW</span><b></b><span>SHORTLIST</span></div><span class="image-credit">Photo · Vitaly Gariev / Unsplash</span></button>
+          <div class="project-copy"><div class="project-meta"><span>HIRING · WORKFLOW</span><span>08</span></div><h3><button class="project-title" type="button" data-project-open="ats">Applicant Tracking System <span>↗</span></button></h3><p>Recruitment workflow project from my earlier portfolio, designed to organize applications and review stages.</p><div class="tag-list"><span>Recruitment</span><span>Workflow</span></div><button class="project-link" type="button" data-project-open="ats">View case study <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-project="accounting">
+          <button class="project-image image-accounting" type="button" data-project-open="accounting" aria-label="View Accounting System case study"><img src="https://images.unsplash.com/photo-1762831063004-bbd3ea38ba3a?auto=format&amp;fit=crop&amp;w=1400&amp;q=82" alt="Calculator, notebook and financial planning materials; contextual Unsplash photo" loading="lazy"><span class="image-label">09 / FINANCE</span><span class="project-open">↗</span><div class="chart-art"><span></span><span></span><span></span><span></span><span></span><i>REVENUE OVERVIEW</i></div><span class="image-credit">Photo · Cht Gsml / Unsplash</span></button>
+          <div class="project-copy"><div class="project-meta"><span>FINANCE · BUSINESS SYSTEMS</span><span>09</span></div><h3><button class="project-title" type="button" data-project-open="accounting">Accounting System <span>↗</span></button></h3><p>Accounting system project from my earlier portfolio, focused on common small-business financial records.</p><div class="tag-list"><span>Accounting</span><span>Business software</span></div><button class="project-link" type="button" data-project-open="accounting">View case study <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="portfolio-note">Project notes use my portfolio, available repositories and tender material. Image credits and case-study detail are available by selecting a project.</p>
     </section>
-    <!-- End Contact Seciton -->
 
+    <section class="skills section-shell" id="skills">
+      <div class="section-kicker"><span>04</span><span>TOOLKIT</span></div>
+      <div class="skills-layout"><div><p class="eyebrow">FROM FIRST SKETCH TO DEPLOYMENT</p><h2>Curious by nature.<br><span class="muted-text">Full-stack by practice.</span></h2><p class="skills-intro">I bring an entrepreneurial product mindset, broad engineering skills and practical DevOps experience together to take useful ideas from concept to production.</p></div><div class="skill-groups"><div class="skill-group"><span class="skill-index">01</span><div><h3>Languages & frameworks</h3><p>Python · Django · PHP · Laravel · JavaScript · React · TypeScript · Dart · Flutter · Node.js · REST APIs</p></div></div><div class="skill-group"><span class="skill-index">02</span><div><h3>Product, UI & data</h3><p>Entrepreneurial product thinking · UI/UX · Tailwind CSS · Bootstrap · SQL · PostgreSQL · Data analysis</p></div></div><div class="skill-group"><span class="skill-index">03</span><div><h3>DevOps & engineering workflows</h3><p>Docker · CI/CD · Git · Linux · NGINX · VPS · deployment · release workflows · production support · senior engineering tooling</p></div></div></div></div>
+      <div class="learning-row"><div><span class="eyebrow">LEARNING & CREDENTIALS</span><p>ICT · College of Business Education<br>FreeCodeCamp · Coursera · CS50 · HackerRank</p></div><div class="credential-links"><a href="https://www.hackerrank.com/certificates/iframe/5d239ad4080d" target="_blank" rel="noopener noreferrer">JavaScript ↗</a><a href="https://www.hackerrank.com/certificates/iframe/0f00dda21327" target="_blank" rel="noopener noreferrer">Problem Solving ↗</a><a href="https://www.hackerrank.com/certificates/iframe/20451cff49f0" target="_blank" rel="noopener noreferrer">Python ↗</a><a href="https://www.hackerrank.com/certificates/iframe/a66337071430" target="_blank" rel="noopener noreferrer">React ↗</a><a href="https://www.freecodecamp.org/certification/fcc6dda443c-794c-42dc-845e-1a2386455b20/scientific-computing-with-python-v7" target="_blank" rel="noopener noreferrer">Scientific Computing with Python ↗</a></div></div>
+    </section>
 
-    <!-- Start Footer Seciton -->
-    <footer>
-        <div class="container">
-            <div class="st-copyright-wrap text-center">
-                <p class="st-copyright-text">All right reserved. © 2022. Designed by Rajabu Mrisho.
-                </p>
-            </div>
-
-        </div>
-    </footer>
-    <!-- End Footer Seciton -->
-    <!-- Scripts -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/lightgallery.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/ripples.min.js"></script>
-    <script src="assets/js/particles.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <section class="contact section-shell" id="contact"><div class="contact-orbit" aria-hidden="true"></div><div class="section-kicker"><span>05</span><span>CONTACT</span></div><div class="contact-content"><p class="eyebrow">HAVE A GOOD PROBLEM TO SOLVE?</p><h2>Let’s make<br><span class="accent-text">something useful.</span></h2><p>Have a product idea, a system to improve or a team that needs an engineer? I’d like to hear about it.</p><a class="button button-primary" href="mailto:rajabumrisho69@gmail.com">Start a conversation <span>↗</span></a></div><div class="contact-details"><a href="mailto:rajabumrisho69@gmail.com">RAJABUMRISHO69@GMAIL.COM <span>↗</span></a><a href="tel:+255679190720">+255 679 190 720 <span>↗</span></a><span>DAR ES SALAAM, TANZANIA</span></div></section>
+  </main>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <header class="dialog-header"><div><p class="eyebrow" id="dialog-category">PROJECT CASE STUDY</p><p class="dialog-index" id="dialog-index"></p></div><form method="dialog"><button class="dialog-close" aria-label="Close project details">×</button></form></header>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-client" id="dialog-client"></p>
+      <div class="dialog-rule"></div>
+      <div class="dialog-body"><div><p class="dialog-label">WHAT IT DOES</p><p id="dialog-about"></p></div><div><p class="dialog-label">MY ROLE</p><p id="dialog-role"></p></div><div><p class="dialog-label">TECHNOLOGY</p><div class="dialog-tags" id="dialog-tech"></div></div><div><p class="dialog-label">OUTCOME</p><p id="dialog-outcome"></p></div></div>
+      <footer class="dialog-footer"><a class="dialog-image-source" id="dialog-image-source" target="_blank" rel="noopener noreferrer"></a><a class="dialog-live-link" id="dialog-live-link" target="_blank" rel="noopener noreferrer">View live product <span>↗</span></a></footer>
+    </div>
+  </dialog>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">RAJABU MRISHO<small>SOFTWARE ENGINEER</small></span></a><span>BUILT WITH INTENTION · © <span id="year">2026</span></span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="assets/js/portfolio.js" defer></script>
 </body>
-
 </html>
